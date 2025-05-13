@@ -5,35 +5,41 @@
 #
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
-/wp-admin/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
-/wp-includes/
-/index.php
-/license.txt
-/readme.html
-/wp-*.php
-/xmlrpc.php
+/web_fia_udec/wp-admin/
+/web_fia_udec/wp-content/index.php
+/web_fia_udec/wp-content/languages
+/web_fia_udec/wp-content/plugins/index.php
+/web_fia_udec/wp-content/themes/index.php
+/web_fia_udec/wp-includes/
+/web_fia_udec/index.php
+/web_fia_udec/license.txt
+/web_fia_udec/readme.html
+/web_fia_udec/wp-*.php
+!/web_fia_udec/wp-config-sample.php
+/web_fia_udec/xmlrpc.php
+/web_fia_udec/nginx.conf
+/web_fia_udec/text.txt
 
 # Configuration
-wp-config.php
+/web_fia_udec/wp-config.php
 
 # Example themes
-/wp-content/themes/twenty*/
+/web_fia_udec/wp-content/themes/twenty*/
 
 # Example plugin
-/wp-content/plugins/hello.php
+/web_fia_udec/wp-content/plugins/hello.php
 
 # Uploads
-/wp-content/uploads/
+/web_fia_udec/wp-content/uploads/
 
 # Log files
 *.log
 
 # htaccess
-/.htaccess
+/web_fia_udec/.htaccess
+
+# SQL Folder
+sql/
 
 # All plugins
 #
@@ -44,5 +50,3 @@ wp-config.php
 # All themes
 #
 # Note: If you wish to whitelist themes,
-# uncomment the next line
-#/wp-content/themes
